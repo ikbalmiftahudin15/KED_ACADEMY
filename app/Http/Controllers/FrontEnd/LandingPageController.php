@@ -19,10 +19,6 @@ class LandingPageController extends Controller
         return view('guest.tim-page');
     }
 
-    public function getacara(){
-        return view('guest.acara-page');
-    }
-
     public function getkontak(){
         return view('guest.kontak-page');
     }

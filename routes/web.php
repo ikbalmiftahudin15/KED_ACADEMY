@@ -21,5 +21,4 @@ Route::get('/', function () {
 Route::get('/layanan', [LandingPageController::class, 'getlayanan'])->name('layanan');
 Route::get('/kursus', [LandingPageController::class, 'getkursus'])->name('kursus');
 Route::get('/tim', [LandingPageController::class, 'gettim'])->name('tim');
-Route::get('/acara', [LandingPageController::class, 'getacara'])->name('acara');
 Route::get('/kontak', [LandingPageController::class, 'getkontak'])->name('kontak');
